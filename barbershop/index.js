@@ -86,12 +86,6 @@ submit.addEventListener("click", (e) => {
   }
 });
 
-// $(window).scroll(function (e) {
-//   let top = $(window).scrollTop();
-//   if (top >= 20) {
-//     $(".go_to_up").css("display", "block");
-//   }
-// });
 
 $(function () {
   $(window).scroll(function () {
@@ -108,18 +102,4 @@ $(function () {
   });
 });
 
-// if ($("body").offset({ top: 100, left: 0 })) {
-//   $(".go_to_up").css("display", "block");
-// }
 
-// submit.addEventListener("click", () => {
-//   overlay.style.display = "none";
-// });
-
-// var d = document.getElementById("div1");
-// var topPos = d.offsetTop;
-
-// if (topPos > 10) {
-//   // объект имеет отступ больше
-//   // чем 10 пикселей относительно своего родителя
-// }
