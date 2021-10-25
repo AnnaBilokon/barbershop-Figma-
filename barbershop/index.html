@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+  <body class="wrapped">
+    <div class="block1">
+      <div class="wrap">
+        <header class="header">
+          <nav class="nav desktopMenu">
+            <p class="links">Услуги</p>
+            <p class="links">Мастера</p>
+            <p class="links">О нас</p>
+            <p class="links">Контакты</p>
+          </nav>
+          <div class="mobileMenu">
+            <button class="btnMenu">
+                <p class="btnMenu_text"> Меню </p>
+            </button>
+            <!-- <nav class="nav">
+                <p class="links">Услуги</p>
+                <p class="links">Мастера</p>
+                <p class="links">О нас</p>
+                <p class="links">Контакты</p>
+              </nav> -->
+          </div>
+          <div class="contact wrap1">
+            <div class="phoneNumber">
+              <img class="icon1" src="./css/Vector0.png" alt="picture" />
+              <p class="phone">+7 (980) 156-89-03</p>
+              <img class="icon" src="./css/Vector.png" alt="picture" />
+              <img class="icon" src="./css/Vector (1).png" alt="picture" />
+              <img class="icon" src="./css/Vector (2).png" alt="picture" />
+            </div>
+            <p class="address">
+              Москва, м. Комсомольская, Березовский проезд д.6
+            </p>
+            <p class="workTime">с 10:00 до 22:00 без выходных</p>
+          </div>
+        </header>
+        <div class="block1_main">
+          <p class="mainTitle">Razor Sharp</p>
+          <p class="middleTitle">Барбершоп</p>
+          
+          <button class="btn" id="btnBook">
+            <p class= "btnText">Записаться онлайн</p>
+          </button>
+  
+        <div id="modal-wrapper">
+          <div id="overlay">
+            <div id="modal-window">
+              <div id="content">
+                  <form class="form" id="form_id" method="post" action="" onsubmit="javascript:return validate('form_id','email')">
+                      <div class="flex_block6">
+                        <input class="input" type="text" id="name" placeholder="Имя" required/>
+                        <input
+                          class="input"
+                          id="phone"
+                          type=""
+                          name="phone"
+                          placeholder="+7 (___) ___-__-__"
+                          required />
+                        <input class="input" type="email" name="mail" placeholder="E-Mail" id="email" required />
+                      </div>
+                      <div class="flex2_block6">
+                        <p>
+                          <textarea placeholder="Комментарий" class="comment" >
+                          </textarea>
+                        </p>
+                        <button class="subBtn" id='validate' type="submit" value="Submit" />
+                        <p class="btnText">Отправить</p> </button>
+                      </div>
+                    </form>
+              </div>
+              <div id="btn-close"><p id="btn_text"> Закрыть </p> </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="block2 wrapped">
+      <div class="wrap">
+        <p class="title36">Преимущества</p>
+        <div class="block2_bottom">
+          <div class="firstColumn">
+            <img class="block2_icon" src="./css/game.png" alt="picture" />
+            <p class="block2_title24">Бесплатный PS 4</p>
+            <p class="block2_text">
+              Приходите играть с друзьями, ожидая свою очередь на стрижку
+            </p>
+          </div>
+          <div class="secondColumn">
+            <img class="block2_icon" src="./css/glass.png" alt="picture" />
+            <p class="block2_title24">Бесплатный бар</p>
+            <p class="block2_text">
+              Пейте бесплатные напитки до, после и во время стрижки
+            </p>
+          </div>
+          <div class="thirdColumn">
+            <img class="block2_icon" src="./css/like.png" alt="picture" />
+            <p class="block2_title24">Крутые мастера</p>
+            <p class="block2_text">
+              В нашем салоне работают высококлассные барберы, профессионалы
+              своего дела
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block3">
+      <div class="wrap">
+        <p class="block3_title">
+          Услуги
+        </p>
+        <div>
+          <div class="block3_row wrap_block3">
+            <div>
+              <p class="block3_smallTitle">Мужская стрижка</p>
+              <p class="block3_content">
+                Стрижка любой сложности с использованием ножниц и машинки (40-50
+                мин)
+
+              </p>
+            </div>
+            <div class="price">1 200 ₽</div>
+          </div>
+          <img class="line" src="./css/line.png" alt="picture" />
+        </div>
+        <div>
+          <div class="block3_row wrap_block3">
+            <div>
+              <p class="block3_smallTitle">Стрижка под машинку</p>
+              <p class="block3_content">
+                Стрижка машинкой с использование 1-2 насадок (25-30 мин)
+              </p>
+            </div>
+            <div class="price">900 ₽</div>
+          </div>
+          <img class="line" src="./css/line.png" alt="picture" />
+        </div>
+        <div>
+          <div class="block3_row wrap_block3">
+            <div>
+              <p class="block3_smallTitle">Детская стрижка до 12 лет</p>
+              <p class="block3_content">
+                Любая стрижка для самых маленьких клиентов. До 12 лет (35-40
+                мин).
+              </p>
+            </div>
+            <div class="price">1 000 ₽</div>
+          </div>
+          <img class="line" src="./css/line.png" alt="picture" />
+        </div>
+        <div>
+          <div class="block3_row wrap_block3">
+            <div>
+              <p class="block3_smallTitle">Моделирование бороды</p>
+              <p class="block3_content">
+                Придание бороде формы с использованием опасной бритвы.
+                Косметический комплекс по уходу за бородой и кожей (30-40 мин).
+              </p>
+            </div>
+            <div class="price">1 100 ₽</div>
+          </div>
+        </div>
+          <img class="line" src="./css/line.png" alt="picture" />
+       
+        <div>
+          <div class="block3_row wrap_block3">
+            <div>
+              <p class="block3_smallTitle">Королевское бритьё</p>
+              <p class="block3_content">
+                Влажное, чистовое бритье с использованием опасной бритвы.
+                Косметический комплекс по уходу за кожей. Массаж лица
+                и воротниковой зоны (60 мин).
+              </p>
+            </div>
+            <div class="price">1 200 ₽</div>
+          </div>
+          <img class="line" src="./css/line.png" alt="picture" />
+        </div>
+        <div>
+          <div class="block3_row wrap_block3">
+            <div>
+              <p class="block3_smallTitle">Бритьё головы</p>
+              <p class="block3_content">
+                Абсолютно чистое бритье головы с использованием опасной бритвы
+                (40 мин)
+              </p>
+            </div>
+            <div class="price">800 ₽</div>
+          </div>
+          <img class="line" src="./css/line.png" alt="picture" />
+        </div>
+        <div>
+          <div class="block3_row wrap_block3">
+            <div>
+              <p class="block3_smallTitle">Стрижка усов и бороды</p>
+              <p class="block3_content">
+                Подравняем бороду и усы при помощи ножниц и машинки (20-25 мин)
+              </p>
+            </div>
+            <div class="price">1 200 ₽</div>
+          </div>
+          <img class="line" src="./css/line.png" alt="picture" />
+        </div>
+        <div>
+          <div class="block3_row wrap_block3">
+            <div>
+              <p class="block3_smallTitle">Коррекция, моделирование бороды</p>
+              <p class="block3_content">
+                Услуга действует в течении 10 дней после услуги моделирование
+                бороды. *Только для постоянных клиентов (20-25 мин).
+              </p>
+            </div>
+            <div class="price">1 200 ₽</div>
+          </div>
+          <img class="line" src="./css/line.png" alt="picture" />
+        </div>
+        <button class="btn_block3 wrap_block3">
+            <p class="btnText">Записаться онлайн</p>
+          </button>
+      </div>
+      
+    </div>
+    <div class="block4">
+      <div class="wrap">
+        <p class="block4_title">Мастера</p>
+      </div>
+      <div class="block4_wrap">
+        <div class="block">
+          <img class="img_block4" src="./css/photo1.png" alt="picture" />
+          <p class="name">Максим</p>
+          <p class="prof">Старший барбер</p>
+          <button class="btn_block4">
+            <p class="btnText4">Записаться</p>
+          </button>
+        </div>
+        <div class="block">
+          <img class="img_block4" src="./css/photo2.png" alt="picture" />
+          <p class="name">Юра</p>
+          <p class="prof">Барбер</p>
+          <button class="btn_block4">
+            <p class="btnText4">Записаться</p>
+          </button>
+        </div>
+        <div class="block">
+          <img class="img_block4" src="./css/photo3.png" alt="picture" />
+          <p class="name">Владимир</p>
+          <p class="prof">Старший барбер</p>
+          <button class="btn_block4">
+            <p class="btnText4">Записаться</p>
+          </button>
+        </div>
+      </div>
+      <div>
+        <p class="block4_sale">Акции</p>
+        <div class="box_wrap block4_wrap">
+          <div class="box">
+            <p class="box_text">15% скидка</p>
+            <p class="box_text2">на первое посещение</p>
+          </div>
+          <div class="box2">
+            <p class="box_text">20% скидка</p>
+            <p class="box_text2">в День рождения</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block5">
+      <div class="block5_flex wrap">
+        <p class="block5_title">О нас</p>
+        <div class="first_line">
+          <img class="img_bl5" src="./css/block5_img1.png" alt="picture" />
+          <p class="block5_text">
+            Наши мастера всегда предложат стильную стрижку и учтут ваши
+            предпочтения
+          </p>
+        </div>
+        <div class="second_line">
+          <p class="block5_text2">
+            У нас вы получите качественную стрижку, профессиональное оформление
+            бороды и усов, теплый приём и отличное настроение
+          </p>
+          <img class="img_bl5" src="./css/block5_img2.png" alt="picture" />
+        </div>
+        <div class="second_line_hidden">
+          <img class="img_bl5" src="./css/block5_img2.png" alt="picture" />
+            <p class="block5_text2">
+              У нас вы получите качественную стрижку, профессиональное оформление
+              бороды и усов, теплый приём и отличное настроение
+            </p>
+            
+          </div>
+      </div>
+    </div>
+    <div class="block6 wrapped">
+      <div>
+        <p class="block6_title wrap">Записаться на стрижку</p>
+      </div>
+      <form class="form" method="POST">
+        <div class="flex_block6">
+          <input class="input" type="text" name="userName" placeholder="Имя" />
+          <input
+            class="input"
+            type="number"
+            name="phone"
+            placeholder="+7 (___) ___-__-__"
+          />
+          <input class="input" type="text" name="mail" placeholder="E-Mail" />
+        </div>
+        <div class="flex2_block6">
+          <p>
+            <textarea placeholder="Комментарий" class="comment" >
+            </textarea>
+          </p>
+          <button class="subBtn" type="submit" />
+          <p class="btnText">Отправить</p> </button>
+        </div>
+      </form>
+      </div>
+      <div class="wrapped">
+      <div class="block7">
+        <div>
+        <div class="black_square">
+            <p class="bl7_title">Контакты</p>
+            <p class="bl7_phone">+7 (980) 156-89-03</p>
+            <p class="bl7_mail">razSar43@gmail.com</p>
+            <div class="icons_bl7">
+            <img class="icon_bl7" src="./css/Vector.png" alt="picture" />
+            <img class="icon_bl7" src="./css/Vector (1).png" alt="picture" />
+            <img class="icon_bl7" src="./css/Vector (2).png" alt="picture" />
+            </div>
+            <p class="address_bl7">Москва, м.Березовский проезд д.6
+                без выходных с 10:00 до 22:00 </p>
+                <div class="go_to_up wrap" id="scroll_top">
+                  <a href="#" title="Поднять страницы на сайтах вверх"><p class="fas fa-angle-up"></p></a>
+                </div>
+        </div>
+        </div>
+ </div> 
+      </div>
+      
+        </div>
+        
+      </div>
+      
+    </div> 
+    
+    <footer class="footer">
+      <p class="footer_text">© «М.Razor Sharp», 2020</p>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
+
+
