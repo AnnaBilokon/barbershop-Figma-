@@ -1,4 +1,4 @@
-// import "./css/styles.css";
+
 console.clear();
 
 let btn = document.querySelector("#btnBook");
@@ -8,7 +8,6 @@ let overlay = document.querySelector("#overlay");
 let close = document.querySelector("#btn-close");
 let submit = document.querySelector(".subBtn");
 let form = document.querySelector("#form_id");
-// console.log(btn);
 let inpName = document.querySelector("#name");
 let inpMail = document.querySelector("#email");
 let inpPhone = document.querySelector("#phone");

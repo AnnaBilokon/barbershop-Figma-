@@ -434,9 +434,6 @@ position: fixed;
   text-align: right;
   color: #f1df3a;
 }
-.line {
-  /* margin: 20px 166px 16px 117px; */
-}
 .btn_block3 {
   left: 387px;
   width: 250px;
@@ -1015,15 +1012,6 @@ position: fixed;
     width: 300px;
     height: 550px;
   }
-  /* .form {
-    margin: 0 auto;
-    width: 770px;
-    /* height: 267px; */
-
-  /* background-position: cover;
-    display: flex;
-    flex-direction: flex-start;
-  } */
   .input {
     width: 250px;
   }
@@ -1073,10 +1061,7 @@ position: fixed;
     .mobileMenu {
       display: block;
     }
-    /* .img_block4 {
-    width: 40%;
-    height: 40%;
-  } */
+
     .block {
       display: flex;
       flex-direction: column;
@@ -1201,4 +1186,5 @@ position: fixed;
       max-width: 220px;
     }
   }
+}
 }
